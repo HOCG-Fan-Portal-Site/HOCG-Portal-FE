@@ -20,7 +20,7 @@
 
 ### 安裝步驟
 
-1. 克隆專案
+1. clone 專案
 ```bash
 git clone [your-repository-url]
 cd hocg-portal-fe
