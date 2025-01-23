@@ -79,6 +79,7 @@ hocg-portal-fe/
 Contributions via Pull Requests or Issues are welcome.
 
 ## License
+MIT License
 
 [License information]
 
