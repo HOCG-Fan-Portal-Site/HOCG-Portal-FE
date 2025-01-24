@@ -19,12 +19,10 @@ const theme = createTheme({
 });
 
 function App() {
-  const basename = import.meta.env.DEV ? '/' : '/HOCG-Portal-FE';
-  console.log(basename);
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router basename={basename}>
+      <Router basename="/HOCG-Portal-FE/">
         <Routes>
           <Route path="/" element={<SearchPage />} />
           <Route path="/card/:id" element={<CardDetailPage />} />
