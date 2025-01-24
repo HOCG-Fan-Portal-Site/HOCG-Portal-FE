@@ -54,12 +54,16 @@ const SearchResults = ({ isLoading, cards }: SearchResultsProps) => {
 
 // 主頁面組件
 export const SearchPage = () => {
-  const { cards, isLoading, error, searchCards } = useCardSearch();
+  const { cards, query, isLoading, error, searchCards, clearSearchState } = useCardSearch();
 
   return (
     <SearchContainer maxWidth="lg">
       <SearchHeader />
-      <SearchBar onSearch={searchCards} />
+      <SearchBar 
+        initialQuery={query} 
+        onSearch={searchCards} 
+        onClear={clearSearchState}
+      />
       <SearchError error={error} />
       <SearchResults isLoading={isLoading} cards={cards} />
     </SearchContainer>

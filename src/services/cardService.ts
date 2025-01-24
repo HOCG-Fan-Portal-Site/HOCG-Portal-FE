@@ -1,18 +1,36 @@
 import { Card } from '../types/card';
+import { cardCacheService } from './cardCacheService';
 
 const baseurl = '/HOCG-Portal-FE/';
 
 export const cardService = {
+  // 獲取所有卡片數據
+  async getAllCardData(): Promise<Record<string, Card>> {
+    // 先檢查緩存
+    const cachedData = cardCacheService.getCardData();
+    if (cachedData) {
+      return cachedData;
+    }
+
+    // 如果緩存中沒有，則從服務器獲取
+    const response = await fetch(baseurl + 'card_data.json');
+    const data: Record<string, Card> = await response.json();
+    
+    // 存入緩存
+    cardCacheService.setCardData(data);
+    
+    return data;
+  },
+
   searchCards: async (query: string): Promise<Card[]> => {
     try {
       if (!query.trim()) {
         return [];
       }
 
-      const response = await fetch(baseurl + 'card_data.json');
-      const data: Record<string, Card> = await response.json();
-      
+      const data = await cardService.getAllCardData();
       const searchQuery = query.toLowerCase();
+      
       return Object.entries(data)
         .filter(([key]) => key.toLowerCase().includes(searchQuery))
         .map(([, card]) => card);
@@ -24,10 +42,14 @@ export const cardService = {
 
   getCardById: async (cardId: string): Promise<Card | null> => {
     try {
-      const response = await fetch(baseurl + 'card_data.json');
-      const data: Record<string, Card> = await response.json();
-      
-      // 直接從 data 物件中獲取卡片
+      // 先檢查緩存
+      const cachedCard = cardCacheService.getCard(cardId);
+      if (cachedCard) {
+        return cachedCard;
+      }
+
+      // 如果緩存中沒有，獲取所有數據
+      const data = await cardService.getAllCardData();
       return data[cardId] || null;
     } catch (error) {
       console.error('Error fetching card:', error);
