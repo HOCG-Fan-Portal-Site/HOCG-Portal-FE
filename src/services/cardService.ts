@@ -1,5 +1,7 @@
 import { Card } from '../types/card';
 
+const baseurl = '/HOCG-Portal-FE/';
+
 export const cardService = {
   searchCards: async (query: string): Promise<Card[]> => {
     try {
@@ -7,7 +9,7 @@ export const cardService = {
         return [];
       }
 
-      const response = await fetch('/card_data.json');
+      const response = await fetch(baseurl + 'card_data.json');
       const data: Record<string, Card> = await response.json();
       
       const searchQuery = query.toLowerCase();
@@ -22,7 +24,7 @@ export const cardService = {
 
   getCardById: async (cardId: string): Promise<Card | null> => {
     try {
-      const response = await fetch('/card_data.json');
+      const response = await fetch(baseurl + 'card_data.json');
       const data: Record<string, Card> = await response.json();
       
       // 直接從 data 物件中獲取卡片
