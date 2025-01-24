@@ -27,7 +27,10 @@ export interface Skill {
   text?: string;
   name?: string;
   dmg?: string;
-  icons?: string[];
+  icons?: {
+    main?: string[];
+    tokkou?: string[];
+  };
   description?: string;
 }
 
@@ -51,7 +54,7 @@ export interface HoloMemberCard extends BaseCard {
   card_type: 'ホロメン' | 'Buzzホロメン';
   hp: string;
   bloom_level: string;
-  baton_touch: string | null;
+  baton_touch: string[];
   skills: Skill[];
 }
 

@@ -1,5 +1,5 @@
 import { Grid2 as Grid, Paper, Typography, Box, Chip } from '@mui/material';
-import { Card, isHoloMemberCard, isOshiHoloMemberCard, isSupportCard } from '../../types/card';
+import { Card, isHoloMemberCard, isOshiHoloMemberCard } from '../../types/card';
 import styles from './CardDetail.module.css';
 
 interface CardDetailProps {
@@ -21,7 +21,7 @@ export const CardDetail = ({ card }: CardDetailProps) => {
           </Grid>
           <Grid size={6}>
             <Typography className={styles.infoLabel}>Baton Touch</Typography>
-            <Typography className={styles.infoValue}>{card.baton_touch}</Typography>
+            <Typography className={styles.infoValue}>{card.baton_touch?.join(' + ')}</Typography>
           </Grid>
         </>
       );
@@ -34,16 +34,8 @@ export const CardDetail = ({ card }: CardDetailProps) => {
             <Typography className={styles.infoLabel}>Life</Typography>
             <Typography className={styles.infoValue}>{card.life}</Typography>
           </Grid>
+          
         </>
-      );
-    }
-    
-    if (isSupportCard(card)) {
-      return (
-        <Grid size={6}>
-          <Typography className={styles.infoLabel}>Support Type</Typography>
-          <Typography className={styles.infoValue}>{card.card_type}</Typography>
-        </Grid>
       );
     }
   };
@@ -79,10 +71,13 @@ export const CardDetail = ({ card }: CardDetailProps) => {
               <Typography className={styles.infoLabel}>Rarity</Typography>
               <Typography className={styles.infoValue}>{card.rarity}</Typography>
             </Grid>
-            <Grid size={6}>
-              <Typography className={styles.infoLabel}>Color</Typography>
-              <Typography className={styles.infoValue}>{card.color}</Typography>
-            </Grid>
+            {card.color && (
+              <Grid size={6}>
+                <Typography className={styles.infoLabel}>Color</Typography>
+                <Typography className={styles.infoValue}>{card.color}</Typography>
+              </Grid>
+            )}
+
 
             {renderCardTypeSpecificInfo()}
 
@@ -92,6 +87,14 @@ export const CardDetail = ({ card }: CardDetailProps) => {
                   <Typography className={styles.infoLabel}>
                     {skill.type}
                   </Typography>
+                  {skill.icons?.main && (
+                    <>
+                      <Typography className={styles.infoLabelDivider}>•</Typography>
+                      <Typography className={styles.infoLabel}>
+                        {skill.icons.main.join(' + ')}
+                      </Typography>
+                    </>
+                  )}
                   {skill.subtype && (
                     <>
                       <Typography className={styles.infoLabelDivider}>•</Typography>
@@ -106,9 +109,22 @@ export const CardDetail = ({ card }: CardDetailProps) => {
                     {skill.name}
                   </Typography>
                 )}
-                {skill.dmg && (
+                <div className={styles.skillDamage}>
+                  {skill.dmg && (
+                    <Typography className={styles.infoValue}>
+                      {skill.dmg}
+                    </Typography>
+                  )}
+                  {skill.icons?.tokkou && (
+                    <Typography className={styles.infoValue}>
+                      {skill.icons.tokkou}
+                    </Typography>
+                  )}
+                </div>
+
+                {skill.text && (
                   <Typography className={styles.infoValue}>
-                    {skill.dmg}
+                    {skill.text}
                   </Typography>
                 )}
                 {skill.description && (
@@ -118,6 +134,16 @@ export const CardDetail = ({ card }: CardDetailProps) => {
                 )}
               </Grid>
             ))}
+          </Grid>
+          <Grid container spacing={2} className={styles.infoGrid}>
+            <Grid size={6}>
+                  <Typography className={styles.infoLabel}>Product</Typography>
+                  <Typography className={styles.infoValue}>{card.product}</Typography>
+            </Grid>
+            <Grid size={6}>
+                  <Typography className={styles.infoLabel}>Card Number</Typography>
+                  <Typography className={styles.infoValue}>{card.number}</Typography>
+              </Grid>
           </Grid>
         </Paper>
       </div>
