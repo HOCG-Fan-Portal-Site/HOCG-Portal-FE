@@ -2,10 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/HOCG-Portal-FE/',
+  base: command === 'build' ? '/HOCG-Portal-FE/' : '/',
   build: {
     outDir: 'dist'
   }
-})
+}))
