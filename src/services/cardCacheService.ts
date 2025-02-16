@@ -1,7 +1,7 @@
 import { Card } from '../types/card';
 
 const CACHE_KEY = 'card_data_cache';
-const CACHE_EXPIRY = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+const CACHE_EXPIRY = 10 * 60 * 1000; // 10 minutes in milliseconds
 
 interface CacheItem {
   data: Record<string, Card>;

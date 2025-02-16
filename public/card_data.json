@@ -16805,5 +16805,2100 @@
     "rarity": "P",
     "product": "PRカード",
     "color": "white"
+  },
+  "hSD07-001-OC": {
+    "number": "hSD07-001",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-001_OC.png",
+    "image_alt": "不知火フレア",
+    "card_type": "推しホロメン",
+    "rarity": "OC",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "life": 5,
+    "skills": [
+      {
+        "type": "推しスキル",
+        "text": "[ホロパワー：-2]イエローマイク[ターンに1回]このターンの間、自分の黄センターホロメンのアーツ+20。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "SP推しスキル",
+        "text": "[ホロパワー：-1]後は引き受けた！[ゲームに1回]自分のセンターホロメンとお休みしていないバックホロメン1人を交代させる。さらに、バックポジションに移動したホロメンのHP30回復。",
+        "icons": {
+          "main": null
+        }
+      }
+    ]
+  },
+  "hSD07-002-C": {
+    "number": "hSD07-002",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-002_C.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "110",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "こんぬいー！",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "不知火フレアだよ！",
+        "dmg": "60",
+        "icons": {
+          "main": [
+            "any",
+            "any",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-003-C": {
+    "number": "hSD07-003",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-003_C.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "50",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "大切な仲間たちと",
+        "description": "自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの[〈尾丸ポルカ〉か〈さくらみこ〉か〈星街すいせい〉か〈白銀ノエル〉]1枚を公開できる：公開したホロメンをステージに出す。そしてデッキをシャッフルする。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "キミといっしょにお出かけ",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "yellow"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-004-U": {
+    "number": "hSD07-004",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-004_U.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "100",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ワンダフルライフ",
+        "dmg": "30+",
+        "description": "自分の手札の枚数が相手より少ない時、このアーツ+10。",
+        "icons": {
+          "main": [
+            "yellow"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-005-C": {
+    "number": "hSD07-005",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-005_C.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "170",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "私からキミへ",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "yellow"
+          ]
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "キミとティータイム",
+        "dmg": "50",
+        "icons": {
+          "main": [
+            "yellow",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-006-C": {
+    "number": "hSD07-006",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-006_C.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "120",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "エルフレンドのさえずり",
+        "description": "自分のデッキから、〈エルフレンド〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "キミを1番好きなのはわたしぃ～♡",
+        "dmg": "30+",
+        "description": "自分のライフが3以下の時、このアーツ+30。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-007-U": {
+    "number": "hSD07-007",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-007_U.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "150",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "また一つ成長した私を",
+        "description": "[バックポジション限定]自分の残りHP70以下のコラボホロメンとこのホロメンを交代できる。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "キミに見てほしいな！",
+        "dmg": "40",
+        "icons": {
+          "main": [
+            "yellow",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-008-R": {
+    "number": "hSD07-008",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-008_R.png",
+    "image_alt": "不知火フレア",
+    "card_type": "Buzzホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "R",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "250",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "エルフレパーティー",
+        "dmg": "50",
+        "description": "自分のアーカイブの〈エルフレンド〉1枚をこのホロメンに付けられる。",
+        "icons": {
+          "main": [
+            "yellow",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-009-RR": {
+    "number": "hSD07-009",
+    "name": "不知火フレア",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-009_RR.png",
+    "image_alt": "不知火フレア",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "ハーフエルフ"
+    ],
+    "rarity": "RR",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow",
+    "hp": "180",
+    "bloom_level": "2nd",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ギフト",
+        "name": "疲れ知らず",
+        "description": "[センターポジション限定]このホロメンが受けるダメージ-10。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "情熱ステージ",
+        "dmg": "70+",
+        "description": "自分のライフが3以下の時、このアーツ+70。",
+        "icons": {
+          "main": [
+            "yellow",
+            "any",
+            "any"
+          ],
+          "tokkou": [
+            "赤+50"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-010-U": {
+    "number": "hSD07-010",
+    "name": "白銀ノエル",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-010_U.png",
+    "image_alt": "白銀ノエル",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "お酒"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "white",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "大物の確証",
+        "description": "このターンの間、自分のセンターホロメンのアーツ+10。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "いっぱい建築したいです",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-011-U": {
+    "number": "hSD07-011",
+    "name": "さくらみこ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-011_U.png",
+    "image_alt": "さくらみこ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "0期生",
+      "ベイビー"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "red",
+    "hp": "60",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "バーニン♪ バーニン♪",
+        "description": "相手のセンターホロメンに特殊ダメージ10を与える。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "魔王軍は無くなりました",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-012-U": {
+    "number": "hSD07-012",
+    "name": "尾丸ポルカ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-012_U.png",
+    "image_alt": "尾丸ポルカ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "5期生",
+      "ケモミミ"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "red",
+    "hp": "50",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "no"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "僕らに水を",
+        "description": "自分のセンターホロメンが〈不知火フレア〉の時、自分の手札の枚数が相手より少なければ、自分のデッキを1枚引く。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "骨を埋める覚悟",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-013-U": {
+    "number": "hSD07-013",
+    "name": "星街すいせい",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-013_U.png",
+    "image_alt": "星街すいせい",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "0期生",
+      "歌"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "blue",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "ご飯が底をつきそう……",
+        "description": "自分のセンターホロメンが〈不知火フレア〉の時、自分のアーカイブのエール1枚を、このホロメン以外の自分のホロメンに送れる。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "雇ってください‼",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD07-014-U": {
+    "number": "hSD07-014",
+    "name": "不知火建設",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-014_U.png",
+    "image_alt": "不知火建設",
+    "card_type": "サポート・イベント・LIMITED",
+    "rarity": "U",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。\n\n自分のデッキの上から4枚を見る。その中から、〈不知火フレア〉と〈尾丸ポルカ〉と〈さくらみこ〉と〈星街すいせい〉と〈白銀ノエル〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。\n\nLIMITED：ターンに１枚しか使えない。"
+      }
+    ]
+  },
+  "hSD07-015-C": {
+    "number": "hSD07-015",
+    "name": "エルフレンド",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-015_C.png",
+    "image_alt": "エルフレンド",
+    "card_type": "サポート・ファン",
+    "rarity": "C",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このファンが付いているホロメンのHP+10。\n\nこのファンは、自分の〈不知火フレア〉だけに付けられ、1人につき何枚でも付けられる。"
+      }
+    ]
+  },
+  "hSD05-001-OC": {
+    "number": "hSD05-001",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-001_OC.png",
+    "image_alt": "風真いろは",
+    "card_type": "推しホロメン",
+    "rarity": "OC",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "life": 5,
+    "skills": [
+      {
+        "type": "推しスキル",
+        "text": "[ホロパワー：-2]グリーンマイク[ターンに1回]このターンの間、自分の緑センターホロメンのアーツ+20。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "SP推しスキル",
+        "text": "[ホロパワー：-1]みんな頑張ろー！[ゲームに1回]自分の緑ホロメン全員のHP20回復。",
+        "icons": {
+          "main": null
+        }
+      }
+    ]
+  },
+  "hSD06-002-C": {
+    "number": "hSD06-002",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-002_C.png",
+    "image_alt": "風真いろは",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "hp": "80",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "のっと！ﾆﾝﾆﾝ！！",
+        "description": "自分のホロメン1人のHP10回復。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-003-U": {
+    "number": "hSD06-003",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-003_U.png",
+    "image_alt": "風真いろは",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "hp": "80",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "一刀両断叩き斬る",
+        "dmg": "30+",
+        "description": "自分のセンターホロメンのHPが減っている時、このアーツ+10。",
+        "icons": {
+          "main": [
+            "green"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-004-C": {
+    "number": "hSD06-004",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-004_C.png",
+    "image_alt": "風真いろは",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "hp": "160",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "照れ屋な用心棒",
+        "dmg": "60",
+        "icons": {
+          "main": [
+            "green",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-005-C": {
+    "number": "hSD06-005",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-005_C.png",
+    "image_alt": "風真いろは",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "hp": "120",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "かざまとおでかけ",
+        "description": "自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "かざまといっしょ！",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "green"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-006-R": {
+    "number": "hSD06-006",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-006_R.png",
+    "image_alt": "風真いろは",
+    "card_type": "Buzzホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX"
+    ],
+    "rarity": "R",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "hp": "220",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "サムライ少女",
+        "description": "自分のデッキから、[〈ﾁｬｷ丸〉か〈ぽこべぇ〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "刀の錆になるでござる！",
+        "dmg": "50",
+        "icons": {
+          "main": [
+            "green",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-007-RR": {
+    "number": "hSD06-007",
+    "name": "風真いろは",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-007_RR.png",
+    "image_alt": "風真いろは",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX"
+    ],
+    "rarity": "RR",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "green",
+    "hp": "180",
+    "bloom_level": "2nd",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "元気をお届け",
+        "description": "自分の#秘密結社holoXを持つホロメン1人のHP30回復。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "天才では？",
+        "dmg": "70+",
+        "description": "自分のステージにエールが5枚以上ある時、このアーツ+50。",
+        "icons": {
+          "main": [
+            "green",
+            "any",
+            "any"
+          ],
+          "tokkou": [
+            "青+50"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-008-U": {
+    "number": "hSD06-008",
+    "name": "博衣こより",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-008_U.png",
+    "image_alt": "博衣こより",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX",
+      "ケモミミ"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "white",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "ずのー！",
+        "description": "自分のセンターホロメンが#秘密結社holoXを持つ時、自分の手札が5枚以下なら、自分のデッキを1枚引く。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "どやぁ",
+        "dmg": "10",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-009-U": {
+    "number": "hSD06-009",
+    "name": "鷹嶺ルイ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-009_U.png",
+    "image_alt": "鷹嶺ルイ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX",
+      "トリ",
+      "お酒"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "red",
+    "hp": "80",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "頼れる女幹部",
+        "dmg": "20",
+        "description": "自分のアーカイブの#秘密結社holoXを持つDebutホロメン1枚を手札に戻せる。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-010-U": {
+    "number": "hSD06-010",
+    "name": "ラプラス・ダークネス",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-010_U.png",
+    "image_alt": "ラプラス・ダークネス",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX",
+      "シューター"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 緑 風真いろは",
+    "color": "purple",
+    "hp": "60",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "狂気の宴",
+        "dmg": "30+",
+        "description": "[コラボポジション限定]このターンの自分のメインステップに自分のSP推しスキルを使っていた時、このアーツ+50。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD06-011-C": {
+    "number": "hSD06-011",
+    "name": "ﾁｬｷ丸",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-011_C.png",
+    "image_alt": "ﾁｬｷ丸",
+    "card_type": "サポート・ツール",
+    "rarity": "C",
+    "product": "スタートデッキ 緑 風真いろは",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このツールが付いているホロメンのアーツ+10。\n\n◆1st以上の〈風真いろは〉に付いていたら能力追加\n[ターンに1回]相手のターンで、このツールが付いているホロメンがダメージを受けた時、相手のセンターホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。\n\nツールは、自分のホロメン1人につき1枚だけ付けられる。"
+      }
+    ]
+  },
+  "hSD06-012-C": {
+    "number": "hSD06-012",
+    "name": "ぽこべぇ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-012_C.png",
+    "image_alt": "ぽこべぇ",
+    "card_type": "サポート・マスコット",
+    "rarity": "C",
+    "product": "スタートデッキ 緑 風真いろは",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このマスコットが付いているホロメンのHP+10。\n\n◆〈風真いろは〉に付いていたら能力追加\nこのマスコットが付いているホロメンのHP+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。"
+      }
+    ]
+  },
+  "hPR-002-U": {
+    "number": "hPR-002",
+    "name": "ReGLOSS",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hPR-002_U.png",
+    "image_alt": "ReGLOSS",
+    "card_type": "サポート・イベント・LIMITED",
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。\n\n自分のデッキの上から４枚を見る。その中から、#ReGLOSSを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。\n\nLIMITED：ターンに１枚しか使えない。"
+      }
+    ]
+  },
+  "hSD05-002-C": {
+    "number": "hSD05-002",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-002_C.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "100",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ぶんぶんぶーん！",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-003-C": {
+    "number": "hSD05-003",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-003_C.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "60",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "こんちくわ",
+        "description": "このターンの間、自分の#ReGLOSSを持つセンターホロメンのアーツ+10。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "お洒落番長",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-004-U": {
+    "number": "hSD05-004",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-004_U.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "120",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ReGLOSSの番長",
+        "dmg": "40",
+        "icons": {
+          "main": [
+            "white",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-005-C": {
+    "number": "hSD05-005",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-005_C.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "140",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "夜路紫駆！",
+        "dmg": "40",
+        "icons": {
+          "main": [
+            "white"
+          ]
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "うぃー！",
+        "dmg": "60",
+        "icons": {
+          "main": [
+            "any",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-006-C": {
+    "number": "hSD05-006",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-006_C.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "C",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "100",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "足取り軽め、轟はじめ",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "ありあとりゃあすっ",
+        "dmg": "50+",
+        "description": "自分のステージに異なるカード名の#ReGLOSSを持つホロメンが3人以上いる時、このアーツ+20。",
+        "icons": {
+          "main": [
+            "white",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-007-U": {
+    "number": "hSD05-007",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-007_U.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "120",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "宇宙一の番長を目指すなんでも屋",
+        "description": "自分のデッキを1枚引く。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "度胸、愛嬌、最強",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-008-R": {
+    "number": "hSD05-008",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-008_R.png",
+    "image_alt": "轟はじめ",
+    "card_type": "Buzzホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "R",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "230",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "……なんか、番長っぽくなってきたかも！",
+        "dmg": "50",
+        "description": "このターンの間、自分のステージの#ReGLOSSを持つDebutホロメン1人のアーツ+40。",
+        "icons": {
+          "main": [
+            "white",
+            "white"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-009-RR": {
+    "number": "hSD05-009",
+    "name": "轟はじめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-009_RR.png",
+    "image_alt": "轟はじめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "ベイビー"
+    ],
+    "rarity": "RR",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "white",
+    "hp": "180",
+    "bloom_level": "2nd",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "ダンスでこの世界に彩を！",
+        "description": "自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "滅紫の雷",
+        "dmg": "80+",
+        "description": "自分のステージに〈轟はじめ〉以外の#ReGLOSSを持つホロメンがいる時、このアーツ+30。",
+        "icons": {
+          "main": [
+            "white",
+            "white",
+            "any"
+          ],
+          "tokkou": [
+            "紫+50"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-010-U": {
+    "number": "hSD05-010",
+    "name": "儒烏風亭らでん",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-010_U.png",
+    "image_alt": "儒烏風亭らでん",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "お酒"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "green",
+    "hp": "80",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ちょいと一席",
+        "dmg": "20",
+        "description": "自分のアーカイブのエール1枚を、自分の#ReGLOSSを持つホロメンに送れる。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-011-U": {
+    "number": "hSD05-011",
+    "name": "一条莉々華",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-011_U.png",
+    "image_alt": "一条莉々華",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "料理"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "red",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "任せておきなさい！",
+        "description": "自分のセンターホロメンが#ReGLOSSを持つ時、自分の手札が5枚以下なら、自分のデッキを1枚引く。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "社長の推し事",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-012-U": {
+    "number": "hSD05-012",
+    "name": "火威青",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-012_U.png",
+    "image_alt": "火威青",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "絵"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "blue",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "ドーンッ！",
+        "description": "相手のセンターホロメンかバックホロメン1人に特殊ダメージ10を与える。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "世界一かわいいよ",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-013-U": {
+    "number": "hSD05-013",
+    "name": "音乃瀬奏",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-013_U.png",
+    "image_alt": "音乃瀬奏",
+    "card_type": "ホロメン",
+    "tags": [
+      "DEV_IS",
+      "ReGLOSS",
+      "歌"
+    ],
+    "rarity": "U",
+    "product": "スタートデッキ 白 轟はじめ",
+    "color": "yellow",
+    "hp": "90",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "クレッシェンドな日々",
+        "description": "自分のステージのエール1枚を、このホロメン以外の自分のホロメンに付け替えられる。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "ガハw",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD05-014-C": {
+    "number": "hSD05-014",
+    "name": "ばんぺん",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-014_C.png",
+    "image_alt": "ばんぺん",
+    "card_type": "サポート・マスコット",
+    "rarity": "C",
+    "product": "スタートデッキ 白 轟はじめ",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このマスコットが付いているホロメンのアーツ+10。\n\n◆〈轟はじめ〉に付いていたら能力追加\nこのマスコットが付いているホロメンのHP+20。\n\nマスコットは、自分のホロメン1人につき1枚だけ付けられる。"
+      }
+    ]
+  },
+  "hBD24-007-P": {
+    "number": "hBD24-007",
+    "name": "ジジ・ムリン",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-007_P.png",
+    "image_alt": "ジジ・ムリン",
+    "card_type": "推しホロメン",
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "yellow",
+    "life": 5,
+    "skills": [
+      {
+        "type": "推しスキル",
+        "text": "[ホロパワー：-2]イエローエンハンス[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "SP推しスキル",
+        "text": "[ホロパワー：-2]Birthday Gift ～Yellow～[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+        "icons": {
+          "main": null
+        }
+      }
+    ]
+  },
+  "hY06-001-C": {
+    "number": "hY06-001",
+    "name": "黄エール",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hY06-001_C.png",
+    "image_alt": "黄エール",
+    "card_type": "エール",
+    "rarity": "C",
+    "product": "スタートデッキ 黄 不知火フレア",
+    "color": "yellow"
+  },
+  "hBP01-028-P": {
+    "number": "hBP01-028",
+    "name": "IRyS",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-028_P.png",
+    "image_alt": "IRyS",
+    "card_type": "ホロメン",
+    "tags": [
+      "EN",
+      "Promise",
+      "歌"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "white",
+    "hp": "100",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ハイRyS！",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP01-052-P": {
+    "number": "hBP01-052",
+    "name": "アイラニ・イオフィフティーン",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-052_P.png",
+    "image_alt": "アイラニ・イオフィフティーン",
+    "card_type": "ホロメン",
+    "tags": [
+      "ID",
+      "ID1期生",
+      "絵"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "green",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "スラマッパギ！",
+        "dmg": "10",
+        "description": "自分のステージのエール１枚を、自分の#IDを持つホロメンに付け替えられる。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-014-P": {
+    "number": "hBP02-014",
+    "name": "白銀ノエル",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-014_P.png",
+    "image_alt": "白銀ノエル",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "お酒"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "white",
+    "hp": "130",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "こんまっする～！",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-018-P": {
+    "number": "hBP02-018",
+    "name": "パヴォリア・レイネ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-018_P.png",
+    "image_alt": "パヴォリア・レイネ",
+    "card_type": "ホロメン",
+    "tags": [
+      "ID",
+      "ID2期生",
+      "トリ",
+      "絵"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "green",
+    "hp": "100",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ペルハティアン！",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-024-P": {
+    "number": "hBP02-024",
+    "name": "大神ミオ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-024_P.png",
+    "image_alt": "大神ミオ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "ゲーマーズ",
+      "ケモミミ",
+      "料理"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "green",
+    "hp": "90",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any",
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "うちうち、うちだよ～大神ミオだよ～",
+        "dmg": "10",
+        "description": "自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-029-P": {
+    "number": "hBP02-029",
+    "name": "宝鐘マリン",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-029_P.png",
+    "image_alt": "宝鐘マリン",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "3期生",
+      "絵",
+      "海",
+      "お酒"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "red",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "マリンと宅飲み",
+        "description": "相手のコラボホロメンに特殊ダメージ20を与える。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "マリン“船長”だろぉぉん！？",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "red",
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-035-P": {
+    "number": "hBP02-035",
+    "name": "沙花叉クロヱ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-035_P.png",
+    "image_alt": "沙花叉クロヱ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "秘密結社holoX",
+      "海"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "blue",
+    "hp": "110",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ばっくばっくばく～ん",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-042-P": {
+    "number": "hBP02-042",
+    "name": "紫咲シオン",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-042_P.png",
+    "image_alt": "紫咲シオン",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "2期生"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "purple",
+    "hp": "130",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "どうも～",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-043-P": {
+    "number": "hBP02-043",
+    "name": "紫咲シオン",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-043_P.png",
+    "image_alt": "紫咲シオン",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "2期生"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "purple",
+    "hp": "50",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "魔法見せてあげる",
+        "description": "サイコロを1回振れる：4以上の時、自分のデッキから、#魔法を持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "一緒に行こう",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "purple"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-048-P": {
+    "number": "hBP02-048",
+    "name": "クレイジー・オリー",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-048_P.png",
+    "image_alt": "クレイジー・オリー",
+    "card_type": "ホロメン",
+    "tags": [
+      "ID",
+      "ID2期生",
+      "語学"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "purple",
+    "hp": "120",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "ゾンばんは！",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-054-P": {
+    "number": "hBP02-054",
+    "name": "森カリオペ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-054_P.png",
+    "image_alt": "森カリオペ",
+    "card_type": "ホロメン",
+    "tags": [
+      "EN",
+      "Myth",
+      "歌"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "purple",
+    "hp": "90",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "グリム・リーパーの第一弟子",
+        "dmg": "30+",
+        "description": "自分のアーカイブにホロメンがある時、このアーツ+10。",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hBP02-061-P": {
+    "number": "hBP02-061",
+    "name": "一伊那尓栖",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-061_P.png",
+    "image_alt": "一伊那尓栖",
+    "card_type": "ホロメン",
+    "tags": [
+      "EN",
+      "Myth",
+      "絵",
+      "海"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "purple",
+    "hp": "140",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "アーツ",
+        "name": "WAH!",
+        "dmg": "10",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD01-017-P": {
+    "number": "hSD01-017",
+    "name": "マネちゃん",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-017_P.png",
+    "image_alt": "マネちゃん",
+    "card_type": "サポート・スタッフ・LIMITED",
+    "rarity": "P",
+    "product": "PRカード",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。\n\n自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを５枚引く。\n\nLIMITED：ターンに１枚しか使えない。"
+      }
+    ]
+  },
+  "hSD01-018-P": {
+    "number": "hSD01-018",
+    "name": "サブパソコン",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-018_P.png",
+    "image_alt": "サブパソコン",
+    "card_type": "サポート・アイテム",
+    "rarity": "P",
+    "product": "PRカード",
+    "skills": [
+      {
+        "type": "サポート効果",
+        "name": "自分のデッキの上から５枚を見る。その中から、LIMITEDのサポートカード１枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。"
+      }
+    ]
+  },
+  "hSD02-007-P": {
+    "number": "hSD02-007",
+    "name": "百鬼あやめ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-007_P.png",
+    "image_alt": "百鬼あやめ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "2期生",
+      "シューター"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "red",
+    "hp": "120",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "どーっちどっち♪",
+        "description": "DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "輝いた余を見逃さないでね～～！！",
+        "dmg": "30",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD03-003-P": {
+    "number": "hSD03-003",
+    "name": "猫又おかゆ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD03-003_P.png",
+    "image_alt": "猫又おかゆ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "ゲーマーズ",
+      "ケモミミ"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "blue",
+    "hp": "70",
+    "bloom_level": "Debut",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "コラボエフェクト",
+        "name": "お家にお邪魔します…！",
+        "description": "自分のセンターホロメンが#ゲーマーズを持つ時、相手のセンターホロメンとバックホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "僕をお家に入れてください",
+        "dmg": "10",
+        "icons": {
+          "main": [
+            "blue"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD03-007-P": {
+    "number": "hSD03-007",
+    "name": "猫又おかゆ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD03-007_P.png",
+    "image_alt": "猫又おかゆ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "ゲーマーズ",
+      "ケモミミ"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "blue",
+    "hp": "110",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "また、たくさん笑ってよね！",
+        "description": "自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送れる。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "全力で僕なりの歌、お届けします！",
+        "dmg": "20",
+        "icons": {
+          "main": [
+            "any"
+          ]
+        }
+      }
+    ]
+  },
+  "hSD04-007-P": {
+    "number": "hSD04-007",
+    "name": "癒月ちょこ",
+    "image_url": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD04-007_P.png",
+    "image_alt": "癒月ちょこ",
+    "card_type": "ホロメン",
+    "tags": [
+      "JP",
+      "2期生",
+      "料理"
+    ],
+    "rarity": "P",
+    "product": "PRカード",
+    "color": "purple",
+    "hp": "110",
+    "bloom_level": "1st",
+    "baton_touch": [
+      "any"
+    ],
+    "skills": [
+      {
+        "type": "キーワード",
+        "subtype": "ブルームエフェクト",
+        "name": "ちょっこーん！",
+        "description": "自分のアーカイブのLIMITED以外のイベント1枚を手札に戻せる。",
+        "icons": {
+          "main": null
+        }
+      },
+      {
+        "type": "アーツ",
+        "name": "大好き！ちゅっ♡",
+        "dmg": "30",
+        "description": "自分のバックホロメン1人のHP20回復。",
+        "icons": {
+          "main": [
+            "any",
+            "any"
+          ]
+        }
+      }
+    ]
   }
 }
