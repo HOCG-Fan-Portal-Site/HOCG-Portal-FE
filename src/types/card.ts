@@ -3,13 +3,8 @@ export type CardType =
   | '推しホロメン'
   | 'ホロメン'
   | 'Buzzホロメン'
-  | 'サポート・イベント'
-  | 'サポート・イベント・LIMITED'
-  | 'サポート・アイテム'
-  | 'サポート・アイテム・LIMITED'
-  | 'サポート・マスコット'
-  | 'サポート・ファン'
-  | 'サポート・ツール';
+  | SupportCardType
+  | 'エール'
 
 // 稀有度
 export type Rarity = 'C' | 'R' | 'RRR' | 'SP' | 'OC';
@@ -49,42 +44,46 @@ export interface BaseCard {
   skills: Skill[];
 }
 
+// 支援卡片類型
+export type SupportCardType =
+  | 'サポート・イベント'
+  | 'サポート・イベント・LIMITED'
+  | 'サポート・アイテム'
+  | 'サポート・アイテム・LIMITED'
+  | 'サポート・マスコット'
+  | 'サポート・ファン'
+  | 'サポート・ツール';
+
 // Hololive 成員卡片
 export interface HoloMemberCard extends BaseCard {
   card_type: 'ホロメン' | 'Buzzホロメン';
   hp: string;
   bloom_level: string;
   baton_touch: string[];
-  skills: Skill[];
 }
 
 // 推し成員卡片
 export interface OshiHoloMemberCard extends BaseCard {
   card_type: '推しホロメン';
   life: number;
-  skills: Skill[];
 }
 
 // 支援卡片
 export interface SupportCard extends BaseCard {
-  card_type: Extract<CardType, 
-    | 'サポート・イベント' 
-    | 'サポート・イベント・LIMITED'
-    | 'サポート・アイテム'
-    | 'サポート・アイテム・LIMITED'
-    | 'サポート・マスコット'
-    | 'サポート・ファン'
-    | 'サポート・ツール'
-  >;
+  card_type: SupportCardType;
+}
+
+export interface EuleCard extends BaseCard {
+  card_type: 'エール';
 }
 
 // 卡片聯合類型
-export type Card = HoloMemberCard | OshiHoloMemberCard | SupportCard;
+export type Card = HoloMemberCard | OshiHoloMemberCard | SupportCard | EuleCard;
 
 // 卡片類型集合
 const HOLO_MEMBER_TYPES = ['ホロメン', 'Buzzホロメン'] as const;
 
-const SUPPORT_CARD_TYPES = [
+const SUPPORT_CARD_TYPES: SupportCardType[] = [
   'サポート・イベント',
   'サポート・イベント・LIMITED',
   'サポート・アイテム',
@@ -92,7 +91,7 @@ const SUPPORT_CARD_TYPES = [
   'サポート・マスコット',
   'サポート・ファン',
   'サポート・ツール'
-] as const;
+];
 
 // 類型守衛函數
 export const isHoloMemberCard = (card: Card): card is HoloMemberCard => {
@@ -104,5 +103,9 @@ export const isOshiHoloMemberCard = (card: Card): card is OshiHoloMemberCard => 
 };
 
 export const isSupportCard = (card: Card): card is SupportCard => {
-  return SUPPORT_CARD_TYPES.includes(card.card_type as typeof SUPPORT_CARD_TYPES[number]);
+  return SUPPORT_CARD_TYPES.includes(card.card_type as SupportCardType);
+};
+
+export const isEuleCard = (card: Card): card is EuleCard => {
+  return card.card_type === 'エール';
 };

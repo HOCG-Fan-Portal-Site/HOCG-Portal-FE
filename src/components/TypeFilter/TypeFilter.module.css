@@ -1,0 +1,85 @@
+/* Container styles */
+.filterContainer {
+  max-width: 600px;
+  margin: 16px auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+
+/* Header styles */
+.filterHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filterHeader:hover {
+  background-color: rgba(92, 147, 153, 0.1);
+}
+
+.filterTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+  font-size: 1rem;
+}
+
+/* Icon animation */
+.filterIcon {
+  transition: transform 0.3s ease;
+}
+
+.filterIcon.expanded {
+  transform: rotate(180deg);
+}
+
+/* Content styles */
+.filterContent {
+  padding: 0 20px 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.filterGroup {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 12px;
+}
+
+/* Checkbox label styles */
+.filterLabel {
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.filterLabel:hover {
+  background-color: rgba(92, 147, 153, 0.1);
+}
+
+.filterLabel span {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.checkbox {
+  color: #5C9399;
+}
+
+/* Badge styles */
+.activeFiltersCount {
+  background-color: #5C9399;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 8px;
+}

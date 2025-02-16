@@ -24,13 +24,13 @@ export const cardService = {
 
   searchCards: async (query: string): Promise<Card[]> => {
     try {
-      if (!query.trim()) {
-        return [];
+      const data = await cardService.getAllCardData();
+      const searchQuery = query.toLowerCase().trim();
+      
+      if (!searchQuery) {
+        return Object.values(data);
       }
 
-      const data = await cardService.getAllCardData();
-      const searchQuery = query.toLowerCase();
-      
       return Object.entries(data)
         .filter(([key]) => key.toLowerCase().includes(searchQuery))
         .map(([, card]) => card);

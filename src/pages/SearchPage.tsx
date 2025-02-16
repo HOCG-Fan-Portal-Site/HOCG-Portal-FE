@@ -3,6 +3,10 @@ import { SearchBar } from '../components/SearchBar/SearchBar';
 import { CardGrid } from '../components/CardGrid/CardGrid';
 import { useCardSearch } from '../hooks/useCardSearch';
 import { Card } from '../types/card';
+import { TypeFilter } from '../components/TypeFilter/TypeFilter';
+import { TypeFilterState } from '../components/TypeFilter/TypeFilter.types';
+import { filterCards } from '../components/TypeFilter/TypeFilter.utils';
+import { useCardFilters } from '../hooks/useCardFilters';
 import {
   SearchContainer,
   SearchTitle,
@@ -38,9 +42,10 @@ const SearchError = ({ error }: SearchErrorProps) => {
 interface SearchResultsProps {
   isLoading: boolean;
   cards: Card[];
+  typeFilters: TypeFilterState;
 }
 
-const SearchResults = ({ isLoading, cards }: SearchResultsProps) => {
+const SearchResults = ({ isLoading, cards, typeFilters }: SearchResultsProps) => {
   if (isLoading) {
     return (
       <Container sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
@@ -49,23 +54,31 @@ const SearchResults = ({ isLoading, cards }: SearchResultsProps) => {
     );
   }
 
-  return <CardGrid cards={cards} />;
+  const filteredCards = filterCards(cards, typeFilters);
+  return <CardGrid cards={filteredCards} />;
 };
 
 // 主頁面組件
 export const SearchPage = () => {
   const { cards, query, isLoading, error, searchCards, clearSearchState } = useCardSearch();
+  const { filters, setFilters, clearFilters } = useCardFilters();
+
+  const handleClear = () => {
+    clearSearchState();
+    clearFilters();
+  };
 
   return (
     <SearchContainer maxWidth="lg">
       <SearchHeader />
-      <SearchBar 
-        initialQuery={query} 
-        onSearch={searchCards} 
-        onClear={clearSearchState}
+      <SearchBar
+        initialQuery={query}
+        onSearch={searchCards}
+        onClear={handleClear}
       />
+      <TypeFilter filters={filters} onChange={setFilters} />
       <SearchError error={error} />
-      <SearchResults isLoading={isLoading} cards={cards} />
+      <SearchResults isLoading={isLoading} cards={cards} typeFilters={filters} />
     </SearchContainer>
   );
 };
