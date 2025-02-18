@@ -16,5 +16,8 @@ export default defineConfig(() => ({
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
     },
+    typecheck: {
+      tsconfig: './tsconfig.test.json'
+    }
   }
 }))
