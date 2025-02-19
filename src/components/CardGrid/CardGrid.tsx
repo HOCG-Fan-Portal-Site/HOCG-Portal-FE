@@ -9,7 +9,12 @@ interface CardGridProps {
 
 export const CardGrid = ({ cards }: CardGridProps) => {
   const navigate = useNavigate();
-  const cardID = (card: Card) => `${card.number}-${card.rarity}`;
+  const cardID = (card: Card) => {
+    // If card already has an id, use it
+    if (card.id) return card.id;
+    // Otherwise generate from number and rarity
+    return `${card.number}_${card.rarity}`;
+  };
 
   return (
     <div className={styles.gridContainer}>
