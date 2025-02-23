@@ -45,9 +45,9 @@ jobs:
           workflow: card_collector.yaml
           workflow_conclusion: success
           search_artifacts: true
-          name: card_data
+          name: card-collection-results
           path: public
-          repo: HOCG-Fan-Portal-Site/Cards_Collector
+          repo: /HOCG-Fan-Portal-Site/Cards_Collector
           branch: main  
           if_no_artifact_found: fail  
 
