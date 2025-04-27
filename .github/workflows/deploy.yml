@@ -38,19 +38,6 @@ jobs:
           path: coverage/
           retention-days: 30
 
-      - name: Download artifact from card collector
-        uses: dawidd6/action-download-artifact@v8
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          workflow: card_collector.yaml
-          workflow_conclusion: success
-          search_artifacts: true
-          name: card-collection-results
-          path: public
-          repo: HOCG-Fan-Portal-Site/Cards_Collector
-          branch: main  
-          if_no_artifact_found: fail  
-
       - name: Build
         if: success()
         run: npm run build
